@@ -14,14 +14,14 @@
   "routes": {
   },
   "files": {
+    "loopback#static": {
+      "params": "$!../static"
+    }
   },
   "final": {
     "loopback#urlNotFound": {}
   },
   "final:after": {
     "errorhandler": {}
-  },
-  "loopback#static": {
-    "params": "$!../static"
   }
 }
