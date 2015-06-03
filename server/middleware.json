@@ -20,5 +20,8 @@
   },
   "final:after": {
     "errorhandler": {}
+  },
+  "loopback#static": {
+    "params": "$!../static"
   }
 }
